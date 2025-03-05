@@ -4,7 +4,7 @@
 function onBallClick(elBall) {
 
   var currentSize = elBall.offsetWidth;
-  var newSize = currentSize + 50;
+  var newSize = currentSize + getRandomInt(20, 61);
 
   newSize > 400 ? newSize = 100 : newSize
 
